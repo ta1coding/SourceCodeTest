@@ -20,7 +20,7 @@ public class MatrixExample {
 
         System.out.println("result length: " + result.length + " x " + result[0].length);
         for (int i = 0; i < result.length; i++) {
-            for (int j = 0; j < result[i].length; i++) {
+            for (int j = 0; j < result[i].length; j++) {
                 System.out.print(result[i][j] + " ");
             }
             System.out.println();
